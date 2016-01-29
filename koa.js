@@ -1,6 +1,7 @@
-var app = koa();
+var express = require('express');
+var app = express();
 
-app.use(function* () {
+app.use(function() {
     this.body = 'Hello baby';
 });
 
